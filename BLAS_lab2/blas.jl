@@ -20,7 +20,7 @@ for size in 1:51
     end
 end
 
-p1=scatter(data[1],mean_vectors,
+p1=plot(data[1],mean_vectors,
     title="Mnozenie wektorow",
     label="czas",
     xlabel="rozmiar wektora",
